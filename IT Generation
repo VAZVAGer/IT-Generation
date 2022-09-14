@@ -1,0 +1,9 @@
+stop = 0
+while stop != "n":
+    print("What is Bitcoin price today?")
+    bitcoin = float(input())
+    print('How much $ do you have?')
+    dollars = float(input())
+    print(f"You can buy {dollars / bitcoin} BTC")
+    stop = input('Do you want to reverse the operation? If yes enter - y, if no - n')
+print('СЛАВА УКРАЇНІ!!!')
